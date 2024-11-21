@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pondok</title>
+
+    <link rel="stylesheet" href="resetCSS/reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="image/logo-removebg-preview.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- navigasi -->
+    <nav class="navbar">
+      <div class="dropdown">
+        <svg
+          id="menu"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+          class="main-grid-item-icon"
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+        >
+          <line x1="3" x2="21" y1="12" y2="12" />
+          <line x1="3" x2="21" y1="6" y2="6" />
+          <line x1="3" x2="21" y1="18" y2="18" />
+        </svg>
+
+        <div class="dropbtn">
+          <img
+            src="image/logo-removebg-preview.png"
+            alt="Logo Store"
+            onclick="closeDropdown()"
+          />
+          <span onclick="openDropdown()">Menu</span>
+        </div>
+        <div class="dropdown-content" id="dropdown">
+          <a href="#home">Home</a>
+          <a href="#about">Visi Misi</a>
+          <a href="#guide">Panduan Pendaftaran</a>
+        </div>
+      </div>
+
+      <div class="link">
+        <a href="#footer">Tentang Kami</a>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSezOXR4QuP3Xf1kscqK5Fvp_hkrOol-KTvr3MTv4ok_Hgr07w/viewform"
+          target="_blank"
+          >Daftar Sekarang</a
+        >
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero" id="home">
+      <main class="hero-img">
+        <h1>pondok pesantren riyadlus sholihin</h1>
+        <h2>
+          Berdiri sejak Tahun 2011 yang berasaskan pada Islam Ahlussunah
+          Waljama'ah
+        </h2>
+      </main>
+    </section>
+
+    <!-- visi misi -->
+    <section id="about" class="about">
+      <img src="image/logo-removebg-preview.png" alt="Logo Ponpes" />
+      <p>
+        Lembaga pendidikan teladan, berkah dan berkualitas dalam mencetak
+        generasi muslim yang berilmu, berakhlaq dan beramal berdasarkan
+        Al-Qur'an dan As-sunnah sesuai manhaj salafunal aslah ahlus sunnah wal
+        jamaah.
+      </p>
+
+      <div class="wrapper">
+        <div class="visi">
+          <div class="visidesc">
+            <h2>Visi</h2>
+            <p>
+              Menjadi lembaga pendidikan teladan, berkah, dan berkualitas dalam
+              mencetak generasi muslim yang berilmu, berakhlak, dan beramal
+              berdasarkan al-Qur'an dan as-Sunnah sesuai manhaj salafunal salih
+              ahlus sunnah wal jamaah.
+            </p>
+          </div>
+        </div>
+
+        <div class="misi">
+          <div class="misidesc">
+            <h2>Misi</h2>
+            <ol type="1">
+              <li>
+                Mendidik generasi Islam agar berakidah, berakhlak, dan beribadah
+                berdasarkan al-Qur'an dan as-Sunnah, sesuai manhaj salafus salih
+                ahlus sunnah wal jamaah.
+              </li>
+              <li>
+                Membentuk karakter muslim teladan, sholih, cendekia, mandiri,
+                disiplin, dan sederhana.
+              </li>
+              <li>
+                Membentuk pribadi muslim yang senantiasa menyertai ilmu, amal,
+                dan dakwah berdasarkan al-Qur'an dan as-Sunnah sesuai pemahaman
+                para sahabat Rasulullah.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Panduan Pendaftaran -->
+    <section class="guide" id="guide">
+      <h2>Panduan <span>Pendaftaran</span></h2>
+
+      <div class="guide-flow">
+        <div class="form">
+          <h3>
+            * Silahkan Persiapkan Dokumen Pendaftaran Seperti (KK,KTP
+            Ortu,Akte,dll) untuk mengisi Formulir Pendaftaran
+          </h3>
+          <div class="card">
+            <a
+              href="https://drive.google.com/drive/u/1/folders/1VrM_iFRdv1AnrKDwL6LLWf6VaFYJrpSc"
+              target="_blank"
+              >Brosur Pendaftaran & Rincian Biaya</a
+            >
+          </div>
+        </div>
+
+        <div class="school-choice">
+          <h3>
+            * Setelah melakukan Pendaftaran Online Pondok silahkan dilanjutkan
+            melakukan pendaftaran Sekolah MTs / MA
+          </h3>
+          <div class="card">
+            <a href="https://s.id/mtsriyadlussholihinalislamy" target="_blank"
+              >Madrasah Tsanawiyah</a
+            >
+          </div>
+          <div class="card">
+            <a href="https://s.id/MARSAI" target="_blank">Madrasah Aliyah</a>
+          </div>
+        </div>
+
+        <div class="collect-files">
+          <h3>
+            * Setelah sudah mengisi formulir online Pondok & Sekolah silahkan
+            mengumpulkan berkas fisik fotocopy ke Kantor Pendaftaran dan
+            melakukan pembayaran pendaftaran
+          </h3>
+          <div class="card">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6609.413680126611!2d110.384267!3d-7.072364!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70897d16f7bbe3%3A0xc2f45a290bb4a3d9!2sPondok%20Pesantren%20Riyadlus%20Sholihin!5e1!3m2!1sen!2sus!4v1729038088029!5m2!1sen!2sus"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer">
+      <div class="sosial">Kunjungi dan Follow Sosial Media Kami</div>
+
+      <div class="links">
+        <a
+          href="https://www.youtube.com/@riyadlussholihinalislamy8725"
+          target="_blank"
+          >Youtube</a
+        >
+        <a
+          href="https://www.instagram.com/riyadlussholihin.semarang/"
+          target="_blank"
+          >Instagram</a
+        >
+        <a
+          href="https://www.facebook.com/Riyadlussholihin.semarang/"
+          target="_blank"
+          >Facebook</a
+        >
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
